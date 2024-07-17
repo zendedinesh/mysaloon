@@ -1,0 +1,246 @@
+.main-container {
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto ;
+    
+}
+
+.addandservicebtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.add-category-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 230px;
+    font-size: 17px;
+}
+
+.add-category-button:hover {
+    background-color: #218838;
+
+}
+
+.view-category-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.submit-button {
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.close-button {
+    background-color: #007bff;
+    color: white;
+    width: 100px;
+    font-size: 15px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.view-category-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:hover {
+    background-color: hsla(137, 89%, 46%, 0.934);
+}
+
+.close-button:hover {
+    background-color: #0056b3;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding: 10px;
+    text-wrap: nowrap;
+    gap: 20px;
+    background-color: rgba(128, 128, 128, 0.637);
+
+}
+
+.header-container h3 {
+    margin: 0 10px;
+}
+
+.header-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.header-container>button {
+    margin-left: 10px;
+    padding: 12px 20px;
+    background-color: red;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+
+.header-container button[type="button"] {
+    margin-left: 10px;
+    padding: 12px 20px;
+    background-color: rgb(211, 66, 224);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+
+.header-container input[type="checkbox"] {
+    height: 20px;
+    width: 30px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Increased gap between rows */
+}
+
+.row-container input[type="checkbox"] {
+    height: 20px;
+    width: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-cont {
+    margin-right: 20px;
+    /* Increased margin between image and checkbox */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+.text-content:hover {
+    transform: translateY(-5px);
+}
+
+.text-content>h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.text-content>p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+
+
+.modal {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 90%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 50px
+}
+
+.input-fieldtext {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 120px
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
